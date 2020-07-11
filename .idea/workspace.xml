@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7788a8db-bdf6-4c0a-bb62-1d98d494ee67" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Trivia/entities/Trivia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Trivia/interfaces/ITriviaDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Trivia/TWORun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trivia/TriviaRun.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Trivia/controllers/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trivia/controllers/TriviaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Trivia/data/ItemDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trivia/data/TriviaDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Trivia/entities/Item.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Trivia/interfaces/IItemDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Trivia/interfaces/IItemRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trivia/interfaces/ITriviaRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Trivia/interfaces/IItemServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trivia/interfaces/ITriviaServices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Trivia/services/ItemServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trivia/services/TriviaServices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Trivia/TWORun.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Trivia/controllers/ItemController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Trivia/data/ItemDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Trivia/entities/Item.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Trivia/interfaces/IItemDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Trivia/interfaces/IItemRepo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Trivia/interfaces/IItemServices.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Trivia/services/ItemServices.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Trivia/entities/Trivia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trivia/entities/Trivia.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Trivia/controllers/TriviaController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="35" column="43" lean-forward="true" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
+            <state relative-caret-position="218">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -47,10 +29,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/target/classes/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="42" lean-forward="true" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Trivia/entities/Trivia.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+            <state relative-caret-position="213">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#827#828#0" expanded="true" />
@@ -107,8 +98,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Trivia/TriviaRun.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="221">
+              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -200,7 +191,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/yellowJava/constants/StringConstants.java" />
         <option value="$PROJECT_DIR$/src/main/java/yellowJava/customExceptions/UsersInvalidPhoneNumber.java" />
         <option value="$PROJECT_DIR$/src/main/java/yellowJava/customExceptions/UsersNotFound" />
         <option value="$PROJECT_DIR$/src/main/java/yellowJava/customExceptions/UsersNotFound.java" />
@@ -234,7 +224,6 @@
         <option value="$PROJECT_DIR$/src/main/java/Ebbinghaus/data/ItemDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/Ebbinghaus/interfaces/IItemServices.java" />
         <option value="$PROJECT_DIR$/src/main/java/Ebbinghaus/interfaces/IItemDAO.java" />
-        <option value="$PROJECT_DIR$/target/classes/application.yml" />
         <option value="$PROJECT_DIR$/src/main/java/Ebbinghaus/config/CorsConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/Ebbinghaus/config/ConfigFile.java" />
         <option value="$PROJECT_DIR$/src/main/java/Ebbinghaus/controllers/ItemController.java" />
@@ -251,6 +240,8 @@
         <option value="$PROJECT_DIR$/src/main/java/Trivia/services/TriviaServices.java" />
         <option value="$PROJECT_DIR$/src/main/java/Trivia/data/TriviaDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/Trivia/controllers/TriviaController.java" />
+        <option value="$PROJECT_DIR$/target/classes/application.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/Trivia/entities/Trivia.java" />
       </list>
     </option>
   </component>
@@ -363,6 +354,17 @@
               <item name="Trivia" type="462c0819:PsiDirectoryNode" />
               <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="trivia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trivia" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trivia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trivia" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -394,7 +396,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.TriviaRun">
     <configuration name="EbbingRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="C:/Program Files/Java/jdk-12.0.1" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -470,6 +472,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.EbbingRun" />
+      <item itemvalue="Application.TriviaRun" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.TriviaRun" />
@@ -665,7 +671,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.6475645" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23495702" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.18481375" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39911634" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -811,39 +817,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Trivia/entities/Trivia.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#827#828#0" expanded="true" />
-            <element signature="e#861#862#0" expanded="true" />
-            <element signature="e#916#917#0" expanded="true" />
-            <element signature="e#962#963#0" expanded="true" />
-            <element signature="e#997#998#0" expanded="true" />
-            <element signature="e#1028#1029#0" expanded="true" />
-            <element signature="e#1076#1077#0" expanded="true" />
-            <element signature="e#1116#1117#0" expanded="true" />
-            <element signature="e#1149#1150#0" expanded="true" />
-            <element signature="e#1176#1177#0" expanded="true" />
-            <element signature="e#1218#1219#0" expanded="true" />
-            <element signature="e#1250#1251#0" expanded="true" />
-            <element signature="e#1283#1284#0" expanded="true" />
-            <element signature="e#1312#1313#0" expanded="true" />
-            <element signature="e#1356#1357#0" expanded="true" />
-            <element signature="e#1392#1393#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Trivia/interfaces/ITriviaServices.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -904,10 +877,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="42" lean-forward="true" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Trivia/entities/Trivia.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#827#828#0" expanded="true" />
+            <element signature="e#861#862#0" expanded="true" />
+            <element signature="e#916#917#0" expanded="true" />
+            <element signature="e#962#963#0" expanded="true" />
+            <element signature="e#997#998#0" expanded="true" />
+            <element signature="e#1028#1029#0" expanded="true" />
+            <element signature="e#1076#1077#0" expanded="true" />
+            <element signature="e#1116#1117#0" expanded="true" />
+            <element signature="e#1149#1150#0" expanded="true" />
+            <element signature="e#1176#1177#0" expanded="true" />
+            <element signature="e#1218#1219#0" expanded="true" />
+            <element signature="e#1250#1251#0" expanded="true" />
+            <element signature="e#1283#1284#0" expanded="true" />
+            <element signature="e#1312#1313#0" expanded="true" />
+            <element signature="e#1356#1357#0" expanded="true" />
+            <element signature="e#1392#1393#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Trivia/TriviaRun.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="221">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -916,8 +922,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Trivia/controllers/TriviaController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="35" column="43" lean-forward="true" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
+        <state relative-caret-position="218">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

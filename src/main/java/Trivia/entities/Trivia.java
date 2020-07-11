@@ -14,7 +14,7 @@ public class Trivia {
     private Integer question_id;
     @NotBlank
     private String question;
-    @NotBlank
+
     private String[] tags;
     @NotBlank
     private  String answer;
