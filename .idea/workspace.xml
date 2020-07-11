@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7788a8db-bdf6-4c0a-bb62-1d98d494ee67" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Trivia/entities/Trivia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trivia/entities/Trivia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Trivia/controllers/TriviaController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="218">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -28,11 +29,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/target/classes/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="42" lean-forward="true" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+            <state relative-caret-position="272">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -66,13 +67,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Trivia/interfaces/ITriviaServices.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="203">
+              <caret line="81" column="21" lean-forward="true" selection-start-line="81" selection-start-column="21" selection-end-line="81" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -172,6 +170,8 @@
       <find>ebbinghouse</find>
       <find>ebb</find>
       <find>item</find>
+      <find>org.apache.logging.log4j</find>
+      <find>log4j</find>
     </findStrings>
     <replaceStrings>
       <replace>product</replace>
@@ -229,7 +229,6 @@
         <option value="$PROJECT_DIR$/src/main/java/Ebbinghaus/controllers/ItemController.java" />
         <option value="$PROJECT_DIR$/src/main/java/Ebbinghaus/entities/Item.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/TWO_Java/EbbingRun.java" />
         <option value="$PROJECT_DIR$/src/main/java/Trivia/controllers/ItemController.java" />
         <option value="$PROJECT_DIR$/src/main/java/Trivia/entities/Question.java" />
@@ -242,6 +241,7 @@
         <option value="$PROJECT_DIR$/src/main/java/Trivia/controllers/TriviaController.java" />
         <option value="$PROJECT_DIR$/target/classes/application.yml" />
         <option value="$PROJECT_DIR$/src/main/java/Trivia/entities/Trivia.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -662,7 +662,7 @@
     <frame x="-8" y="0" width="1548" height="832" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2960969" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29542395" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -671,7 +671,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.6475645" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.18481375" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.42406878" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39911634" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -690,7 +690,7 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16488793" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2960969" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -698,16 +698,16 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.64772725" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3650568" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.6475645" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.18481375" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39911634" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.5611193" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.31563845" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.07511046" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.14630681" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.40830946" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -744,7 +744,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Renamed from Ebbinghouse-java.iml" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/yellowJava/customExceptions/UsersNotFound" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Ebbinghaus/customExceptions/UsersInvalidPhoneNumber.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Ebbinghaus/customExceptions/UsersServerError500.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Ebbinghaus/customExceptions/DuplicateEmail.java" />
@@ -800,13 +799,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -877,13 +869,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="42" lean-forward="true" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Trivia/entities/Trivia.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
@@ -923,10 +908,31 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/Trivia/controllers/TriviaController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="218">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-core/2.9.1/log4j-core-2.9.1.jar!/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="128" column="68" lean-forward="true" selection-start-line="128" selection-start-column="68" selection-end-line="128" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="81" column="21" lean-forward="true" selection-start-line="81" selection-start-column="21" selection-end-line="81" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
