@@ -1,0 +1,931 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7788a8db-bdf6-4c0a-bb62-1d98d494ee67" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Ebbinghouse-java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Trivia.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TWO_Java/TWORun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trivia/TWORun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TWO_Java/config/CorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trivia/config/CorsConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TWO_Java/controllers/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trivia/controllers/ItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TWO_Java/data/ItemDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trivia/data/ItemDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TWO_Java/entities/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trivia/entities/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TWO_Java/interfaces/IItemDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trivia/interfaces/IItemDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TWO_Java/interfaces/IItemRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trivia/interfaces/IItemRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TWO_Java/interfaces/IItemServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trivia/interfaces/IItemServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TWO_Java/services/ItemServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trivia/services/ItemServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/yellowTeam-Javabackend.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TWO_Java/TWORun.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TWO_Java/config/CorsConfig$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TWO_Java/config/CorsConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TWO_Java/controllers/ItemController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TWO_Java/data/ItemDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TWO_Java/entities/Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TWO_Java/interfaces/IItemDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TWO_Java/interfaces/IItemRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TWO_Java/interfaces/IItemServices.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TWO_Java/services/ItemServices.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/yellowTeam-Javabackend.kotlin_module" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Trivia/controllers/ItemController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="429">
+              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" selection-start-line="9" selection-end-line="14" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Trivia/TWORun.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Trivia/services/ItemServices.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="26" selection-start-line="26" selection-start-column="2" selection-end-line="29" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Trivia/data/ItemDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="28" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Trivia/interfaces/IItemServices.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Trivia/interfaces/IItemRepo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="9" column="59" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Trivia/interfaces/IItemDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Customer</find>
+      <find>swagger</find>
+      <find>updatePr</find>
+      <find>update</find>
+      <find>Table</find>
+      <find>itemID</find>
+      <find>product</find>
+      <find>long</find>
+      <find>config</find>
+      <find>Boolean</find>
+      <find>ebbinghouse</find>
+      <find>ebb</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>product</replace>
+      <replace>Product</replace>
+      <replace>item</replace>
+      <replace>integer</replace>
+      <replace>trivia</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\seanp\Code\SPT_Apps\Ebbinghaus_Java\src</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/yellowJava/entities/Roles.java" />
+        <option value="$PROJECT_DIR$/src/main/java/yellowJava/data/ProductDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/yellowJava/interfaces/IProductDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/yellowJava/interfaces/IProductServices.java" />
+        <option value="$PROJECT_DIR$/src/main/java/yellowJava/services/ProductServices.java" />
+        <option value="$PROJECT_DIR$/src/main/java/yellowJava/entities/Product.java" />
+        <option value="$PROJECT_DIR$/src/main/java/yellowJava/data/DataLoader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/yellowJava/customExceptions/ProductBadRequest400.java" />
+        <option value="$PROJECT_DIR$/src/main/java/yellowJava/constants/StringConstants.java" />
+        <option value="$PROJECT_DIR$/src/main/java/yellowJava/customExceptions/UsersInvalidPhoneNumber.java" />
+        <option value="$PROJECT_DIR$/src/main/java/yellowJava/customExceptions/UsersNotFound" />
+        <option value="$PROJECT_DIR$/src/main/java/yellowJava/customExceptions/UsersNotFound.java" />
+        <option value="$PROJECT_DIR$/src/main/java/yellowJava/customExceptions/UsersServerError500.java" />
+        <option value="$PROJECT_DIR$/src/main/java/yellowJava/customExceptions/ExceptionResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/yellowJava/controllers/ProductController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/yellowJava/customExceptions/ProductNotFound404.java" />
+        <option value="$PROJECT_DIR$/src/main/java/yellowJava/customExceptions/ProductPriceError.java" />
+        <option value="$PROJECT_DIR$/src/main/java/yellowJava/customExceptions/ProductServerError500.java" />
+        <option value="$PROJECT_DIR$/src/main/java/yellowJava/customExceptions/PurchaseServerError500.java" />
+        <option value="$PROJECT_DIR$/src/main/java/yellowJava/customExceptions/UsersBadRequest400.java" />
+        <option value="$PROJECT_DIR$/src/main/java/yellowJava/customExceptions/PurchasePriceError.java" />
+        <option value="$PROJECT_DIR$/src/main/java/yellowJava/customExceptions/PurchaseNotFound.java" />
+        <option value="$PROJECT_DIR$/src/main/java/yellowJava/customExceptions/PurchaseBadRequest400.java" />
+        <option value="$PROJECT_DIR$/src/main/java/yellowJava/config/ConfigFile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/yellowJava/config/SwaggerConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/yellowJava/controllers/UsersController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/yellowJava/validators/Validator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/yellowJava/entities/Users.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Ebbinghaus/YellowRunner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Ebbinghaus/data/EbbingRun.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Ebbinghaus/EbbingRun.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Ebbinghaus/entities/Items.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Ebbinghaus/services/ProductServices.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Ebbinghaus/data/ProductDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Ebbinghaus/entities/AppSetup.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Ebbinghaus/controllers/ProductController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Ebbinghaus/interfaces/IProductRepo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Ebbinghaus/interfaces/IItemRepo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Ebbinghaus/services/ItemServices.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Ebbinghaus/data/ItemDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Ebbinghaus/interfaces/IItemServices.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Ebbinghaus/interfaces/IItemDAO.java" />
+        <option value="$PROJECT_DIR$/target/classes/application.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/Ebbinghaus/config/CorsConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Ebbinghaus/config/ConfigFile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Ebbinghaus/controllers/ItemController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Ebbinghaus/entities/Item.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/TWO_Java/EbbingRun.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Trivia/controllers/ItemController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="yellowTeam-backEnd" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-10" />
+    <option name="width" value="1935" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="trivia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trivia" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trivia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trivia" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trivia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trivia" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trivia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trivia" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trivia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trivia" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Trivia" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\seanp\Code\SPT_Apps\Ebbinghaus_Java\src\main\java\Ebbinghaus\interfaces" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.TWORun">
+    <configuration name="EbbingRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="C:/Program Files/Java/jdk-12.0.1" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Ebbinghaus.data.EbbingRun" />
+      <module name="yellowTeam-Javabackend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Trivia.data.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TWORun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trivia.TWORun" />
+      <module name="Trivia" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Trivia.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="Trivia" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="Trivia" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TWORun" />
+        <item itemvalue="Application.EbbingRun" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7788a8db-bdf6-4c0a-bb62-1d98d494ee67" name="Default Changelist" comment="" />
+      <created>1569000031731</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569000031731</updated>
+    </task>
+    <task id="LOCAL-00001" summary="setting up files and connecting to postgres">
+      <created>1569001893503</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1569001893503</updated>
+    </task>
+    <task id="LOCAL-00002" summary="swagger filed added">
+      <created>1569006634536</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1569006634536</updated>
+    </task>
+    <task id="LOCAL-00003" summary="updated item to product">
+      <created>1569252381244</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1569252381245</updated>
+    </task>
+    <task id="LOCAL-00004" summary="most of product is built, will not connect to postgres.yml issues">
+      <created>1569256196413</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1569256196413</updated>
+    </task>
+    <task id="LOCAL-00005" summary="switched the pom out....fixed snakeyml.hitting the db and product entity created">
+      <created>1569257409538</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1569257409538</updated>
+    </task>
+    <task id="LOCAL-00006" summary="product and its 3 table Fk are make (category, productType, demographics)">
+      <created>1569268968834</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1569268968834</updated>
+    </task>
+    <task id="LOCAL-00007" summary="tried and did not work on joins for demographics...commmented out">
+      <created>1569272506767</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1569272506767</updated>
+    </task>
+    <task id="LOCAL-00008" summary="tried and did not work on joins for demographics...commmented out">
+      <created>1569347249778</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1569347249778</updated>
+    </task>
+    <task id="LOCAL-00009" summary="join table info for product entered for demographic, prodTypes and categories">
+      <created>1569352266848</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1569352266848</updated>
+    </task>
+    <task id="LOCAL-00010" summary="found an error on product, fixed">
+      <created>1569352481816</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1569352481816</updated>
+    </task>
+    <task id="LOCAL-00011" summary="set all integres on produt to Postivie or Zero">
+      <created>1569352709697</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1569352709697</updated>
+    </task>
+    <task id="LOCAL-00012" summary="for products get, create delete working through postman">
+      <created>1569356661698</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1569356661698</updated>
+    </task>
+    <task id="LOCAL-00013" summary="update is working on products, full crud product functionality">
+      <created>1569426254703</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1569426254704</updated>
+    </task>
+    <task id="LOCAL-00014" summary="get by productID, sku, name all working through postman">
+      <created>1569428282060</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1569428282060</updated>
+    </task>
+    <task id="LOCAL-00015" summary="working users and product postman crud and special serarches">
+      <created>1569429840680</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1569429840680</updated>
+    </task>
+    <task id="LOCAL-00016" summary="added configFile and fetching the backend...">
+      <created>1569466496466</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1569466496466</updated>
+    </task>
+    <task id="LOCAL-00017" summary="dataloader up and working...">
+      <created>1569514088256</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1569514088256</updated>
+    </task>
+    <task id="LOCAL-00018" summary="added swagger, api and customer excpetions....">
+      <created>1569895989443</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1569895989443</updated>
+    </task>
+    <task id="LOCAL-00019" summary="added runtime exceptions">
+      <created>1569946864641</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1569946864641</updated>
+    </task>
+    <task id="LOCAL-00020" summary="trying swagger">
+      <created>1569949155816</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1569949155816</updated>
+    </task>
+    <task id="LOCAL-00021" summary="validator working again">
+      <created>1569949387055</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1569949387055</updated>
+    </task>
+    <task id="LOCAL-00022" summary="most validation are in there...like swimwear">
+      <created>1569952958664</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1569952958664</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Renamed from Ebbinghouse-java.iml">
+      <created>1590709424642</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1590709424642</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="0" width="1548" height="832" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2960969" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.6475645" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23495702" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39911634" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.31563845" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.07511046" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.4090909" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.32972974" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16488793" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.64772725" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3650568" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39911634" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.5611193" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.07511046" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.14630681" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.32972974" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="setting up files and connecting to postgres" />
+    <MESSAGE value="swagger filed added" />
+    <MESSAGE value="updated item to product" />
+    <MESSAGE value="most of product is built, will not connect to postgres.yml issues" />
+    <MESSAGE value="switched the pom out....fixed snakeyml.hitting the db and product entity created" />
+    <MESSAGE value="product and its 3 table Fk are make (category, productType, demographics)" />
+    <MESSAGE value="tried and did not work on joins for demographics...commmented out" />
+    <MESSAGE value="join table info for product entered for demographic, prodTypes and categories" />
+    <MESSAGE value="found an error on product, fixed" />
+    <MESSAGE value="set all integres on produt to Postivie or Zero" />
+    <MESSAGE value="for products get, create delete working through postman" />
+    <MESSAGE value="update is working on products, full crud product functionality" />
+    <MESSAGE value="get by productID, sku, name all working through postman" />
+    <MESSAGE value="working users and product postman crud and special serarches" />
+    <MESSAGE value="added configFile and fetching the backend..." />
+    <MESSAGE value="dataloader up and working..." />
+    <MESSAGE value="added swagger, api and customer excpetions...." />
+    <MESSAGE value="added runtime exceptions" />
+    <MESSAGE value="trying swagger" />
+    <MESSAGE value="validator working again" />
+    <MESSAGE value="most validation are in there...like swimwear" />
+    <MESSAGE value="Renamed from Ebbinghouse-java.iml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Renamed from Ebbinghouse-java.iml" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/yellowJava/customExceptions/UsersNotFound" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Ebbinghaus/customExceptions/UsersInvalidPhoneNumber.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Ebbinghaus/customExceptions/UsersServerError500.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Ebbinghaus/customExceptions/DuplicateEmail.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Ebbinghaus/customExceptions/ProductBadRequest400.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Ebbinghaus/customExceptions/ProductNotFound404.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Ebbinghaus/customExceptions/ProductPriceError.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Ebbinghaus/customExceptions/ProductServerError500.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Ebbinghaus/customExceptions/PurchaseServerError500.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Ebbinghaus/customExceptions/UsersBadRequest400.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Ebbinghaus/customExceptions/PurchasePriceError.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Ebbinghaus/customExceptions/PurchaseNotFound.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Ebbinghaus/customExceptions/PurchaseBadRequest400.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Ebbinghaus/customExceptions/ExceptionResponse.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Ebbinghaus/config/SwaggerConfig.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Ebbinghaus/data/DataLoader.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Ebbinghaus/entities/LineItem.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Ebbinghaus/entities/Categories.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Ebbinghaus/entities/Roles.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Ebbinghaus/customExceptions/UsersNotFound.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Ebbinghaus/data/UsersDAO.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Ebbinghaus/interfaces/IUsersDAO.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Ebbinghaus/interfaces/IUsersServices.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Ebbinghaus/services/UsersServices.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Ebbinghaus/controllers/UsersController.java" />
+    <entry file="file://$PROJECT_DIR$/../new_dfg/new_dfg/src/components/SignUp.jsx" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Ebbinghaus/entities/Product.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Ebbinghaus/entities/Demographics.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Ebbinghaus/interfaces/IProductTypeRepo.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Ebbinghaus/entities/Users.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Ebbinghaus/constants/StringConstants.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Ebbinghaus/validators/Validator.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/Ebbinghaus/PurchaseServicesTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/Ebbinghaus/UserServicesTest.java" />
+    <entry file="file://$PROJECT_DIR$/.idea/Trivia.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Ebbinghaus/entities/AppSetup.java" />
+    <entry file="file://$PROJECT_DIR$/target/classes/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Ebbinghaus/config/ConfigFile.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Trivia/config/CorsConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="79" selection-start-line="16" selection-start-column="79" selection-end-line="16" selection-end-column="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TWO-java.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Trivia/entities/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Trivia/TWORun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Trivia/services/ItemServices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="26" selection-start-line="26" selection-start-column="2" selection-end-line="29" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Trivia/data/ItemDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="28" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Trivia/interfaces/IItemServices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Trivia/interfaces/IItemRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="59" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Trivia/interfaces/IItemDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="543" column="12" selection-start-line="543" selection-end-line="544" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Trivia/controllers/ItemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>yellowTeam-Javabackend</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
